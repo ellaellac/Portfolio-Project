@@ -33,7 +33,7 @@ body {
 
 nav {
   width: 100vw;
-  height: 10vh;
+  height: 70px;
   background-color: #051928;
   color: azure;
   display: flex;
@@ -42,7 +42,7 @@ nav {
 
 .nav__name {
   font-weight: 300;
-  padding: 20px;
+  margin: 20px;
   text-align: center;
   width: 50vw;
 }
@@ -50,6 +50,7 @@ nav {
 .nav__list {
   grid-area: list;
   width: 50vw;
+  margin: 5px;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
