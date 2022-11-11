@@ -1,0 +1,36 @@
+@use "variables" as*;
+
+footer{
+    border: 2px solid red;
+    background-color: $footerColour;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_content{
+    border: 2px solid red;
+    margin-left: 20px;
+    color: white;
+    a:link{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.footer_button{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.footer_button_item{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+

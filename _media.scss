@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+    .nav__list{
+        display:none;
+    }
+
+    .aboutMe{
+        display: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .aboutMe__img{
+        border: 2px solid green;
+        margin: 20px 10px 0 10px;   
+    }
+    
+    .aboutMe__content{
+        border: 2px solid green;
+        margin: 20px;
+        width: 90%;
+        line-height: 40px;
+    }
+
+    footer{
+        display: unset;
+        height: 150px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_content{
+        margin-left: 0px;
+    }
+    
+    .footer_button{
+        margin: 0px;
+    }
+
+
+}
