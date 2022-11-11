@@ -23,9 +23,17 @@
         line-height: 40px;
     }
 
+    .myProjects_allcards{
+        display: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     footer{
         display: unset;
-        height: 150px;
+        height: 130px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
