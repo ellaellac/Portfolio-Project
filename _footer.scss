@@ -1,7 +1,7 @@
 @use "variables" as*;
 
 footer{
-    border: 2px solid red;
+    // border: 2px solid red;
     background-color: $footerColour;
     height: 100px;
     display: flex;
@@ -10,7 +10,7 @@ footer{
 }
 
 .footer_content{
-    border: 2px solid red;
+    // border: 2px solid red;
     margin-left: 20px;
     color: white;
     a:link{

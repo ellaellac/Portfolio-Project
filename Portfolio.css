@@ -32,7 +32,6 @@ body {
 }
 
 nav {
-  border: 2px solid red;
   width: 100vw;
   height: 10vh;
   background-color: #051928;
@@ -42,7 +41,6 @@ nav {
 }
 
 .nav__name {
-  border: 2px solid #F2D096;
   font-weight: 300;
   padding: 20px;
   text-align: center;
@@ -51,7 +49,6 @@ nav {
 
 .nav__list {
   grid-area: list;
-  border: 2px solid orange;
   width: 50vw;
   display: flex;
   justify-content: space-evenly;
@@ -60,7 +57,6 @@ nav {
 
 .nav__list__item {
   grid-area: list;
-  border: 2px solid #F2D096;
   height: fit-content;
   list-style: none;
 }
@@ -70,7 +66,6 @@ nav {
 }
 
 header {
-  border: 2px solid red;
   text-align: start;
   width: 100vw;
   height: 600px;
@@ -79,7 +74,6 @@ header {
 }
 
 .header_title {
-  border: 2px solid green;
   margin-top: 170px;
 }
 
@@ -88,7 +82,6 @@ header {
 }
 
 .aboutMe {
-  border: 2px solid orange;
   text-align: start;
   width: 100vw;
   padding-left: 20px;
@@ -99,7 +92,6 @@ header {
 }
 
 #about {
-  border: 2px solid green;
   height: 50px;
   width: fit-content;
   margin: 20px 0 0 0;
@@ -107,7 +99,6 @@ header {
 }
 
 .aboutMe__img {
-  border: 2px solid green;
   max-width: 100%;
   height: auto;
   margin: 20px 300px 40px 0;
@@ -115,17 +106,10 @@ header {
 }
 
 .aboutMe__content {
-  border: 2px solid green;
   margin: 20px 0 40px 0;
   width: 90%;
   line-height: 40px;
   grid-area: about;
-}
-
-.technicalSkills {
-  border: 2px solid red;
-  height: 500px;
-  width: 100vw;
 }
 
 #skills {
@@ -134,7 +118,6 @@ header {
 }
 
 .technicalSkills_img {
-  border: 3px solid green;
   margin-top: 50px;
   padding: 50px 0 50px 0;
   display: flex;
@@ -143,42 +126,80 @@ header {
   flex-wrap: wrap;
 }
 
-.myProjects {
-  border: 2px solid red;
-  height: 500px;
-  width: 100vw;
-}
-
 #projects {
   margin: 50px 0 20px 0;
   padding-left: 20px;
 }
 
-.myProjects_content {
-  border: 2px solid green;
-  margin: 20px 0 20px 0;
-  height: 300px;
+.myProjects_allcards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myProjects__card {
+  border: 5px solid #f7f7f7;
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.myProjects__card__image {
+  width: 100%;
+  height: 100%;
+}
+
+.myProjects__card__name {
+  margin: 5px;
+}
+
+.myProjects__card__despcription {
+  margin: 5px;
+  font-size: 16px;
+}
+
+.myProjects__card__button {
+  margin: 5px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-self: center;
+}
+
+.myProjects__card__button_1 {
+  margin: 5px;
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.myProjects__card__button_2 {
+  margin: 5px;
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
 }
 
 .getInTouch {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #contact {
-  border: 2px solid red;
   font-size: 48px;
   width: fit-content;
   margin: 100px 0 30px 0;
 }
 
 .getInTouch_button {
-  border: 2px solid black;
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
@@ -193,7 +214,6 @@ header {
 }
 
 footer {
-  border: 2px solid red;
   background-color: #051928;
   height: 100px;
   display: flex;
@@ -202,7 +222,6 @@ footer {
 }
 
 .footer_content {
-  border: 2px solid red;
   margin-left: 20px;
   color: white;
 }
@@ -240,20 +259,26 @@ footer {
   }
 
   .aboutMe__img {
-    border: 2px solid green;
     margin: 20px 10px 0 10px;
   }
 
   .aboutMe__content {
-    border: 2px solid green;
     margin: 20px;
     width: 90%;
     line-height: 40px;
   }
 
+  .myProjects_allcards {
+    display: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   footer {
     display: unset;
-    height: 150px;
+    height: 130px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
