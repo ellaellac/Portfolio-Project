@@ -1,17 +1,19 @@
 // Header 
 header{
-    // border: 2px solid red;
+    border: 2px solid white;
     text-align: start;
     width:100vw;
     height: 600px;
     line-height: 100px;
     padding-left: 20px;
+    background-image: url(background.jpeg);
 }
 
 
 .header_title{
     // border: 2px solid green;
     margin-top: 170px;
+    text-shadow: 1px 2px black;
 }
 
 .header_firstLetter{
