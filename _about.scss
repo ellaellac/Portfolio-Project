@@ -15,12 +15,13 @@
     // border: 2px solid green;
     height: 50px;
     width: fit-content;
-    margin: 20px 0 0 0;
+    margin: 20px 0 20px 0;
     grid-area:heading;
 }
 
 .aboutMe__img{
     // border: 2px solid green;
+    border-radius: 5px;
     max-width: 100%;  
     height: auto; 
     margin: 20px 300px 40px 0;
