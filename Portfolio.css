@@ -10,7 +10,7 @@ body {
   color: #072236;
 }
 
-.header {
+.headings {
   font-family: "Playfair Display", serif;
 }
 
@@ -67,6 +67,7 @@ nav {
 }
 
 header {
+  border: 2px solid red;
   text-align: start;
   width: 100vw;
   height: 600px;
