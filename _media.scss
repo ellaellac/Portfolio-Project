@@ -23,6 +23,18 @@
         line-height: 40px;
     }
 
+    .technicalSkills{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .myProjects{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .myProjects_allcards{
         display: unset;
     }

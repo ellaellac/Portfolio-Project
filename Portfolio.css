@@ -67,7 +67,6 @@ nav {
 }
 
 header {
-  border: 2px solid red;
   text-align: start;
   width: 100vw;
   height: 600px;
@@ -284,6 +283,18 @@ footer {
     margin: 20px;
     width: 90%;
     line-height: 40px;
+  }
+
+  .technicalSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .myProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .myProjects_allcards {
