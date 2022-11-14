@@ -11,14 +11,26 @@
 
 .myProjects_allcards{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project1to3{
+    display: flex;
     justify-content: space-around;
 }
+
+.project4to6{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .myProjects__card{
     border: 5px solid $cardColour;
     width: 300px;
     height: 350px;
-    margin:10px;
+    margin:20px;
     background-color:$cardColour;
     display: flex;
     flex-direction: column;

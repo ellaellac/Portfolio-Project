@@ -25,10 +25,14 @@
 
     .myProjects_allcards{
         display: unset;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+    }
+    .project1to3{
+        display:unset;
+    }
+    
+    .project4to6{
+        display:unset;
+        display:none;
     }
 
     footer{

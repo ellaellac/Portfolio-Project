@@ -134,6 +134,17 @@ header {
 
 .myProjects_allcards {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project1to3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project4to6 {
+  display: flex;
   justify-content: space-around;
 }
 
@@ -141,7 +152,7 @@ header {
   border: 5px solid #f7f7f7;
   width: 300px;
   height: 350px;
-  margin: 10px;
+  margin: 20px;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
@@ -271,10 +282,15 @@ footer {
 
   .myProjects_allcards {
     display: unset;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  }
+
+  .project1to3 {
+    display: unset;
+  }
+
+  .project4to6 {
+    display: unset;
+    display: none;
   }
 
   footer {
