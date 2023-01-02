@@ -170,6 +170,7 @@ header {
 .myProjects__card__image {
   width: 290px;
   height: 210px;
+  object-fit: contain;
 }
 .myProjects__card__name {
   margin: 5px;
