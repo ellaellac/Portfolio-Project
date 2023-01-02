@@ -1,23 +1,19 @@
-// Header 
-header{
-    border: 2px solid white;
-    text-align: start;
-    width:100vw;
-    height: 600px;
-    line-height: 100px;
-    padding-left: 20px;
-    background-image: url(background.jpeg);
+// Header
+header {
+  text-align: start;
+  width: 100vw;
+  height: 600px;
+  line-height: 100px;
+  padding-left: 20px;
+  background-image: url("../assets/background.jpeg");
+  object-fit: cover;
 }
 
-
-.header_title{
-    // border: 2px solid green;
-    margin-top: 170px;
-    text-shadow: 1px 1px black;
+.header_title {
+  padding-top: 150px;
+  text-shadow: 1px 1px black;
 }
 
-.header_firstLetter{
-    font-size: 120%;
+.header_firstLetter {
+  font-size: 120%;
 }
-
-
